@@ -11,17 +11,17 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-public class CloudStorage extends AppCompatActivity
+public class Facebook extends AppCompatActivity
 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cloud_storage);
+        setContentView(R.layout.activity_facebook);
 
         //web view intent
-        Uri uri = Uri.parse("https://drive.google.com/drive/u/0/my-drive");
+        Uri uri = Uri.parse("https://www.facebook.com/mothupikeenen.ramalepe");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
 
@@ -33,7 +33,7 @@ public class CloudStorage extends AppCompatActivity
 
         // Simplest usage: note that an exception will NOT be thrown
         // if there is an error loading this page (see below).
-        webview.loadUrl("https://drive.google.com/drive/u/0/my-drive/");
+        webview.loadUrl("https://www.facebook.com/mothupikeenen.ramalepe/");
 
         // Let's display the progress in the activity title bar, like the
         // browser app does.
@@ -57,6 +57,7 @@ public class CloudStorage extends AppCompatActivity
             }
         });
 
-        webview.loadUrl("https://drive.google.com/drive/u/0/my-drive/");
+        webview.loadUrl("https://www.facebook.com/mothupikeenen.ramalepe/");
     }
+
 }

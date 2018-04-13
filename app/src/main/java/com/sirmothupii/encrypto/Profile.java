@@ -95,7 +95,7 @@ public class Profile extends AppCompatActivity
         }
         else if (id == R.id.Drive)
         {
-
+            startActivity(new Intent(this, CloudStorage.class));
         }
 
         else if (id == R.id.nav_share)
@@ -104,7 +104,7 @@ public class Profile extends AppCompatActivity
         }
         else if (id == R.id.nav_facebook)
         {
-
+            startActivity(new Intent(this, CloudStorage.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
