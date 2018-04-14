@@ -32,7 +32,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SignIn" />
         <activity android:name=".CloudStorage" />
-        <activity android:name=".Facebook"></activity>
+        <activity android:name=".Facebook" />
+        <activity android:name=".IECVotes" />
+        <activity android:name=".Statistics"></activity>
     </application>
 
 </manifest>
