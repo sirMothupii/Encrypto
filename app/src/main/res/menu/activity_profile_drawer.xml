@@ -9,9 +9,17 @@
             android:icon="@drawable/creditcard"
             android:title="Crypto Currency" />
         <item
+            android:id="@+id/IEC"
+            android:icon="@drawable/vote"
+            android:title="Votes" />
+        <item
+            android:id="@+id/Statistics"
+            android:icon="@drawable/statistics"
+            android:title="Votes Stats" />
+        <item
             android:id="@+id/QRscan"
-            android:icon="@drawable/qr"
-            android:title="QRscan Agriculture" />
+            android:icon="@drawable/scann"
+            android:title="QRscan Barcode" />
         <item
             android:id="@+id/Drive"
             android:icon="@drawable/cloud"
