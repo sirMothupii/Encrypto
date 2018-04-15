@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "356618938083",
+    "firebase_url": "https://encrypto-db885.firebaseio.com",
+    "project_id": "encrypto-db885",
+    "storage_bucket": "encrypto-db885.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356618938083:android:33352616477f30cb",
+        "android_client_info": {
+          "package_name": "com.sirmothupii.encrypto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356618938083-o4vafnipn57csqve0hb2h9b9ijfbg8ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sirmothupii.encrypto",
+            "certificate_hash": "f6ec4e0e6d4104f4a6f9bac1ff9915658edca67a"
+          }
+        },
+        {
+          "client_id": "356618938083-2i9jobd1kqnkhf4rd2is06kmqe5d1nfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_tyc6PIzhG3v1pXoM4cHZZfWVo5r6rZ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356618938083-2i9jobd1kqnkhf4rd2is06kmqe5d1nfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
