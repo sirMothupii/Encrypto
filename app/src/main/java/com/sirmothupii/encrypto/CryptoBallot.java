@@ -21,7 +21,7 @@ public class CryptoBallot extends AppCompatActivity
         setContentView(R.layout.activity_crypto_ballot);
 
                 //web view intent
-                Uri uri = Uri.parse("file:///C:/Users/sirMothupii/Your_First_Decentralized_Application/index.html#");
+                Uri uri = Uri.parse("https://ocq0tgxdo4pesmjjtglfua-on.drv.tw/");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
 
@@ -33,7 +33,7 @@ public class CryptoBallot extends AppCompatActivity
 
                 // Simplest usage: note that an exception will NOT be thrown
                 // if there is an error loading this page (see below).
-                webview.loadUrl("file:///C:/Users/sirMothupii/Your_First_Decentralized_Application/index.html#/");
+                webview.loadUrl("https://ocq0tgxdo4pesmjjtglfua-on.drv.tw//");
 
                 // Let's display the progress in the activity title bar, like the
                 // browser app does.
@@ -59,6 +59,6 @@ public class CryptoBallot extends AppCompatActivity
                     }
                 });
 
-                webview.loadUrl("file:///C:/Users/sirMothupii/Your_First_Decentralized_Application/index.html#/");
+                webview.loadUrl("https://ocq0tgxdo4pesmjjtglfua-on.drv.tw//");
             }
         }
